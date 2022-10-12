@@ -16,7 +16,7 @@ public class CommonMethods12 {
 public static ArrayList<String> GetExcelData(String TcName) throws IOException{
 		
 		ArrayList<String> al = new ArrayList();
-			
+		//Getting test data from Excel	
 		String testdatpath = System.getProperty("user.dir")+"\\resources\\SignupData.xlsx";
 		
 		FileInputStream fis = new FileInputStream(testdatpath);
