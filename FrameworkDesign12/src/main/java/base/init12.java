@@ -28,11 +28,10 @@ public class init12 {
 	{
 
 		prop = new Properties();
-
 		String proppath = System.getProperty("user.dir")+"\\resources\\config12.properties";
 		FileInputStream fis = new FileInputStream(proppath);
 		prop.load(fis);
-		
+		//Getting browser details from maven command
 		String browsername ="";
 		browsername = System.getProperty("browser");
 		if(browsername==null)
@@ -53,8 +52,6 @@ public class init12 {
 			WebDriverManager.chromedriver().setup();	
 			driver = new ChromeDriver();
 		}
-
-		
 		return driver;
 	}
 	
