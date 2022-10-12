@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TSRTC Automation">
+<listeners>
+<listener class-name="executiontest12.Listeners12"></listener>
+</listeners>
+  <test thread-count="5" name="LoginModuleTcs">
+    <classes>
+      <class name="executiontest12.LoginModule12Test"/>
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
