@@ -23,6 +23,7 @@ public class ReportingCls {
 		sparkreporter.config().setCss(".badge-success{background-color: #19af24;}");*/
 		
 		try {
+			//Adding report configuration details from json file
 			sparkreporter.loadJSONConfig(new File(reportconfig));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

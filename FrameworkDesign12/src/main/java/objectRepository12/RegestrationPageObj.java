@@ -14,6 +14,7 @@ public class RegestrationPageObj {
 
 	public WebDriver driver;
 
+	//Page factory mechanism
 	@FindBy(id="loginName")
 	WebElement txtLoginNameObj;
 
